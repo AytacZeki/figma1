@@ -1,4 +1,217 @@
 @import url("./fonts/fonts.css");
-body{
-    margin: 0px;
+body {
+  margin: 0;
+}
+
+div.all {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+div.sinxronizasiya {
+  position: relative;
+  width: 15%;
+  height: 88px;
+  top: 21px;
+  left: 121px;
+  margin-bottom: 97px;
+}
+
+div.calendar {
+  position: relative;
+  display: flex;
+  width: 35%;
+  height: 23px;
+  left: 121px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+div.world-logo {
+  display: flex;
+  width: 22px;
+  height: 21px;
+}
+
+div.watch-logo {
+  display: flex;
+  width: 22px;
+  height: 22px;
+}
+
+div.calendar-logo {
+  display: flex;
+  width: 20px;
+  height: 22px;
+}
+
+p.calendar-text {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  right: 10px;
+  top: 2px;
+}
+
+div.head {
+  position: relative;
+  width: 80%;
+  left: 121px;
+  display: flex;
+}
+
+div.head-text {
+  width: 70%;
+}
+
+h1 {
+  font-family: "Roboto Slab";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 81px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+img.photo-cameraman {
+  width: 304px;
+  height: 356px;
+}
+
+p.head-paragraph {
+  width: 58vh;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+div.review {
+  width: 483px;
+  height: 200px;
+  background-color: #1e4681;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+p.review-paragraph {
+  position: relative;
+  left: 26px;
+  top: 20px;
+  font-family: "Roboto Slab";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+p.sign-paragraph {
+  position: relative;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 200;
+  text-align: right;
+  right: 18px;
+  color: #fff;
+}
+
+/* page-2 */
+
+div.heading-курсе {
+  position: relative;
+  left: 121px;
+  top: 170px;
+  width: 365px;
+  height: 93px;
+  display: block;
+}
+
+h1.курсе {
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+div.article {
+  position: relative;
+  left: 121px;
+  top: 150px;
+  width: 90%;
+  height: 420px;
+  display: flex;
+}
+
+p.main-text {
+  width: 662px;
+  height: 374px;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+img.cameraman-second {
+  position: relative;
+  width: 314px;
+  height: 315px;
+  left: 140px;
+  top: 40px;
+}
+
+div.footer {
+  position: relative;
+  width: 90%;
+  height: 250px;
+  left: 121px;
+  margin-top: 200px;
+  display: flex;
+}
+
+div.footer-text {
+  display: flex;
+}
+
+img.footer-photo {
+  width: 232px;
+  height: 203px;
+}
+
+div.end-text{
+  width: 80%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: end;
+}
+
+div.end {
+  width: 150px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+p.end-paragraph {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+
 }
