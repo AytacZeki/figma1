@@ -1,129 +1,95 @@
 @import url("./fonts/fonts.css");
-body{
+
+body {
     margin: 0px;
 }
-.section3 .h2{
-    position: absolute;
-width: 667px;
-height: 93px;
-left: 121px;
-top: 2000px;
-
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 55px;
-line-height: 101.38%;
+.section3{
+    width: 80%;
+    margin: 0 auto;
 }
-.section3 .p{
-    position: absolute;
-    width: 150px;
-    height: 39px;
-    left: 122px;
-    top: 2182px;
+.section3 .cards {
+    display: flex;
     
+
+}
+
+.section3 .h2 {
+    
+    width: 80%;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+}
+
+.section3 .p {
+   padding-top:55px ;
+    margin-right: 100px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
-    color: #1E4681; 
-}
-.section3 .p2{
-    position: absolute;
-    width: 223px;
-    height: 39px;
-    left: 122px;
-    top: 2222px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    color: #000000;
-
-}
-.section3 .p3{
-    position: absolute;
-width: 214px;
-height: 39px;
-left: 467px;
-top: 2182px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 130%;
-color: #1E4681;
-}
-.section3 .p4{
-    position: absolute;
-width: 271px;
-height: 109px;
-left: 467px;
-top: 2222px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 130%;
-color: #000000;
-}
-.section3 .p5{
-    position: absolute;
-    width: 150px;
-    height: 39px;
-    left: 851px;
-    top: 2182px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
+    font-size: 1.8vw;
     color: #1E4681;
-} 
-.section3 .p6{
-    position: absolute;
-    width: 245px;
-    height: 39px;
-    left: 851px;
-    top: 2222px;
     
+}
+
+.section3 .p1 {
+ 
+    margin-right: 100px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
+    font-size: 1.2vw;
+    color: #000000;
+   
+
+}
+.section4{
+    padding-top:180px;
+    width: 80%;
+    margin: 0 auto;
+}
+.section4 .meyve{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section4 .portagal {
+    
+    width: 80%;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vw;
+    
     color: #000000;
 }
-.section4 .portagal{
-    position: absolute;
-width: 667px;
-height: 93px;
-left: 121px;
-top: 2510px;
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 55px;
-line-height: 101.38%;
-color: #000000;
-}
-.section4 .alma{
-    position: absolute;
-    width: 662px;
-    height: 374px;
-    left: 138px;
-    top: 2624px;
-    
-    font-family: 'Roboto';
+
+.section4 .alma {
+
+    font-family:'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 150%;
+    font-size: 1.8vw;
     color: #000000;
+}
+
+@media (min-width:992px) and (max-width:1279px) {
+    .section3 {
+        width: auto;
+        
+    }
+
+    .section4 {
+        width: auto;
+    }
+}
+
+@media (min-width:320px) and (max-width:990px) {
+    .section3 {
+        width: auto;
+    }
+
+    .section4 {
+        width: auto;
+    }
 }
