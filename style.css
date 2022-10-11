@@ -102,9 +102,6 @@ width: 100%;
 
 .section2 .heading-курсе {
   width: 30vw;
-  height: 5vh;
-  margin-bottom: 3%;
-
 }
 
 .section2 .курсе {
@@ -123,9 +120,15 @@ width: 100%;
   line-height: 2vw;
 }
 
-.section2 .Порой {
+.section2 .Порой{
+  margin-bottom: 6%;
+}
+
+.section2 .Порой,.На{
   font-size: 1.5vw;
   font-family: Roboto;
+  width: 83%;
+  /* padding-right: 12%; */
 }
 
 .section2 .side-photo {
@@ -168,9 +171,46 @@ width: 100%;
 }
 
 @media (max-width: 1279px) and (min-width: 992px){
-
-}
+  .section1 .logo .calendar-text{
+  font-size: 1.2vw;}
 
 @media (max-width: 991px) and (min-width: 320px){
+  .section1 .article{
+    display: flex;
+    flex-direction: column;
+  }
 
+  .section1 .logo .calendar-text{
+    font-size: 1.1vw;
+  }
+
+    .section1 .side-photo{
+      width: 25%;
+    }
+
+    .section2 .article{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .section2 .side-photo{
+      margin-left: 7vw;
+    }
+
+    .section2 .control-photo{
+      display: none;
+        }
+
+    .section2 .footer{
+      display: flex;
+      width: 70%;
+      flex-direction: row;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .section2 .end-texts{
+      wid;
+
+    }
 }
