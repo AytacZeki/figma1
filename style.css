@@ -1,204 +1,198 @@
 @import url("./fonts/fonts.css");
 body{
-    margin: 0px;
+  margin: 0px;
 }
 
 /* section-5 !!!!!!!!! */
 .section5 .card{
-    height: 30%;
-    width: fit-content;
-    border-radius: 27px;
-    width: 30%;
-    margin: 1.3vw;
-    box-shadow: 1px 1px 15px 0px #00000040;
+  height: 30%;
+  border-radius: 27px;
+  width: 30%;
+  margin: 1.3vw;
+  box-shadow: 1px 1px 15px 0px #00000040;
 
 }
 .section5 .cards{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .section5 .card-foto{
-    width: 100%;
+  width: 100%;
 }
 .section5{
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 6vw;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 6vw;
 }
 .section5 .section5-head{
-    padding-left: 5%;
-    font-size: 3.5vw;
-    font-family: Roboto Slab;
-    margin-bottom: 7vw;
+  padding-left: 5%;
+  font-size: 3.5vw;
+  font-family: Roboto Slab;
+  margin-bottom: 7vw;
 }
 .section5 .card-text{
-    padding-left: 12px;
-    font-size: 1.7vw;
-    font-family: Roboto;
-    
+  padding-left: 12px;
+  font-size: 1.7vw;
+  font-family: Roboto;
 } 
 .section5 .card-name,.card-name1{
-    padding-left: 12px;
-    font-size: 2vw;
-    margin-top: 11px;
-    font-family: Roboto;
+  padding-left: 12px;
+  font-size: 2vw;
+  margin-top: 11px;
+  font-family: Roboto;
     
 } 
 .section5 .card-name1{
-    margin-bottom: -9px;
-    line-height: 1.7vw;   
+  margin-bottom: -9px;
+  line-height: 1.7vw;   
 }
 
 @media (min-width: 992px) and (max-width: 1279px){
-    .section5{
-        width: 82%;
-    }
-    .section5 .card{
-        width: 30%;
-    }
-    .section5 .section5-head{
-        font-size: 3.2vw;  
-        margin-bottom: 70px;
-    }
-    .section5 .card-name,.card-name1{
-        font-size: 1.9vw;
-        margin-top: 5px;
-    } 
-    .section5 .card-name1{
-        margin-bottom: -9px;   
-    }   
+  .section5{
+    width: 82%;
+  }
+  .section5 .card{
+    width: 30%;
+  }
+  .section5 .section5-head{
+    font-size: 3.2vw;  
+    margin-bottom: 70px;
+  }
+  .section5 .card-name,.card-name1{
+    font-size: 1.9vw;
+    margin-top: 5px;
+  } 
+  .section5 .card-name1{
+    margin-bottom: -9px;   
+  }   
 }
 
 @media  (max-width: 991px){
-    .section5{
-        width: 80%;
-        padding-bottom: 10vw;
-    }
-    .section5 .cards{
-        width: 68%;
-        margin: 0 auto;
-    }
-    .section5 .card{
-        width: 100%;
-        border-radius: 10%;
-        margin-bottom: 5vw;
-    }
-    .section5 .section5-head{
-        font-size: 6.5vw;  
-        margin-bottom: 13%;
-    }
-    .section5 .card-text{
-        font-size: 2.4vw;
-        padding-left: 2vw;
-
-    } 
-    .section5 .card-name,.card-name1{
-        font-size: 3.4vw;
-        margin-top: 8px;
-        padding-left: 2vw;
-    }
-    .section5 .card-name1{
-        margin-bottom: 0px;
-        line-height: 80%;   
-    } 
+  .section5{
+    width: 80%;
+    padding-bottom: 10vw;
+  }
+  .section5 .cards{
+    width: 68%;
+    margin: 0 auto;
+  }
+  .section5 .card{
+    width: 100%;
+    border-radius: 10%;
+    margin-bottom: 5vw;
+  }
+  .section5 .section5-head{
+    font-size: 6.5vw;  
+    margin-bottom: 13%;
+  }
+  .section5 .card-text{
+    font-size: 2.4vw;
+    padding-left: 2vw;
+  } 
+  .section5 .card-name,.card-name1{
+    font-size: 3.4vw;
+    margin-top: 8px;
+    padding-left: 2vw;
+  }
+  .section5 .card-name1{
+    margin-bottom: 0px;
+    line-height: 80%;   
+  } 
 }
 
 /* section-6!!!!!!! */
 .section6{
-    background: #EFEFEF;
-    padding-top: 3vw;
-    padding-bottom: 15vh;
-
+  background: #EFEFEF;
+  padding-top: 3vw;
+  padding-bottom: 15vh;
 }
 .section6 .main-container{
-    width: 82%;
-    margin: 0 auto;
+  width: 82%;
+  margin: 0 auto;
 }
 .section6 .img-container{
-    display: flex;
+  display: flex;
 }
 .section6 .img-name,.section6-head{
-    font-family: Roboto Slab, monospace;
+  font-family: Roboto Slab, monospace;
 }
 .section6 .main-text{
-    font-family: Roboto, monospace;
-    font-size: 1.35vw;
-    font-weight: 400;
-    line-height: 2vw;
+  font-family: Roboto, monospace;
+  font-size: 1.35vw;
+  font-weight: 400;
+  line-height: 2vw;
 }
 .section6 .container{
-    background: #FFFFFF;
-    border-radius: 2vw;
-    box-shadow: 1px 1px 20px 0px #00000040;
-    padding: 2vw 2.7vw;
-    width: 59%;
-    margin-top: 5vw;
+  background: #FFFFFF;
+  border-radius: 2vw;
+  box-shadow: 1px 1px 20px 0px #00000040;
+  padding: 2vw 2.7vw;
+  width: 59%;
+  margin-top: 5vw;
 }
 .section6-head{
-    font-size: 3.8vw;
+  font-size: 3.8vw;
 }
 .section6 .img{
-    margin-left: -20px;
-    width: 14vw;
+  margin-left: -20px;
+  width: 14vw;
 }
 .section6 .img img{
-    width: 100%;
+  width: 100%;
 }
 .section6 .name-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.5vw;
 }
 .section6 .img-name{
-    font-size: 2vw;
-    
+  font-size: 2vw;   
 }
 
 @media (max-width: 1279px) and (min-width: 992px){
-    .section6 .main-text{
-        font-size: 1.5vw;
-        line-height: 2.3vw;
-    }
-    .section6 .facebook{
-        width: 10%;
-    }
+  .section6 .main-text{
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+  }
+  .section6 .facebook{
+    width: 10%;
+  }
 }
 
 @media (max-width: 991px){
-    .section6-head{
-        font-size: 7vw;
-        width: 80%;
-    }
-    .section6 .container{
-        width: 90%;
-    }
-    .section6 .main-text{
-        font-size: 2vw;
-        line-height: 3vw;
-    }
-    .section6 .container{
-        padding: 2.8vw 5vw;
-        font-size: 5vw;
-    }
-    .section6 .main-text{
-        font-size: 2.8vw;
-        line-height: 4vw;
-    }
-    .section6 .img{
-        width: 35%;
-    }
-    .section6 .name-container{
-        justify-content: space-evenly;
-        margin-top: -2vw;
-    }
-    .section6 .img-name{
-        font-size: 3.5vw;
-    }
-    .section6 .facebook{
-        width: 12%;
-        
-    }
+  .section6-head{
+    font-size: 7vw;
+    width: 80%;
+  }
+  .section6 .container{
+    width: 90%;
+  }
+  .section6 .main-text{
+    font-size: 2vw;
+    line-height: 3vw;
+  }
+  .section6 .container{
+    padding: 2.8vw 5vw;
+    font-size: 5vw;
+  }
+  .section6 .main-text{
+    font-size: 2.8vw;
+    line-height: 4vw;
+  }
+  .section6 .img{
+    width: 35%;
+  }
+  .section6 .name-container{
+    justify-content: space-evenly;
+    margin-top: -2vw;
+  }
+  .section6 .img-name{
+    font-size: 3.5vw;
+  }
+  .section6 .facebook{
+    width: 12%;
+  }
 
 }
