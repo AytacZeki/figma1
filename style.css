@@ -4,72 +4,62 @@ body {
     margin: 0px;
 }
 
-
-
 .section7 {
     background-color: #9DC9C8;
     font-family: Roboto;
-    padding-left: 122px;
-    padding-top: 70px;
-    height: 715px;
+    padding-top: 7.5vw;
+    padding-bottom: 10vw; 
+}
+.section7>div{
+    width: 83%;
+    margin: 0 auto;
 }
 
-
-.bash {
-    font-size: 5vw;
+.section7 .bash {
+    font-size: 3.8vw;
     font-weight: 700;
+    font-family: Roboto Slab;
+    margin-bottom: 3.5vw;
 }
 
-.Стоимость {
-    font-size: 1.5vw;
-    font-weight: 400;
+.section7 .Стоимость {
+    font-size: 1.7vw;
+    font-weight: 500;
     margin-bottom: 0;
 }
 
-.руб {
-    font-size: 4.8vw;
+.section7 .руб {
+    font-size: 5.6vw;
     font-weight: 400;
     margin-top: 0px;
 }
 
-
-
-
-.section {
-    margin: 0 auto;
-    padding: 20px 40px;
-}
-
-.section7>div {
+.section7>div>div {
     display: flex;
 }
 
-.section7>div>div {
-    max-width: 300px;
+.section7>div>div>div {
+    width: 22%;
     font-weight: 500;
 }
 
-.text2 {
-    margin-left: 60px;
+.section7 .text2 {
+    margin-left: 5%;
 }
 
-.prq {
-    font-size: 2vw;
+.section7 .prq {
+    font-size: 1.7vw;
 }
-
-
-/* @media (max-width:1400px) and (min-width:1280px) {
-    .section {}
-
-} */
-
+.section7 .prq2 {
+    font-size: 1.2vw;
+}
 
 .section8 {
     background-color: black;
     color: white;
 }
 
-.general-container {
+.section8 .general-container {
     width: 83%;
     margin: 0 auto;
     padding-top: 2.2vw;
@@ -78,159 +68,165 @@ body {
     font-family: Roboto;
 }
 
-
-.container2 div {
+.section8 .container2 div {
     display: flex;
     align-items: baseline;
 }
 
-
-
-.container2 p {
-    padding-left: 1.5vw;
-    padding-right: 2.5vw;
+.section8 .container2 p {
     font-size: 1.5vw;
     margin-top: 0;
     margin-bottom: 0.5vw;
 }
 
-.img0 .container2 {
+.section8 .container2 .top{
+    margin-top: 1vw;
+}
+
+.section8 .img0 {
     align-items: baseline;
 }
 
-
-.footer p {
+.section8 .footer p {
     padding-top: 6vw;
-    padding-bottom: 2.2vw;
-    padding-left: 7.9vw;
+    padding-bottom: 4vw;
     font-family: Roboto;
-    margin-bottom: 0;
-    width:80%;
+    font-size: 1.3vw;
+    margin: 0 auto;
+    width:83%;
 }
 
-.img0 {
-    width: 6.3vw;
+.section8 .img0 {
+    width: 10vw;
 }
 
+.section8 .img1, .section8 .img2{
+    margin-right: 1.2vw;
+}
 
-.fourly img {
+.section8 .fourly img {
     padding-right: 1.2vw;
     padding-top: 2vw;
 }
 
 @media(max-width: 1279px) and (min-width:992px) {
-    .section7 {
-        height: 50vw;
-    }
-    .bash {
+    
+    .section7 .bash {
         font-size: 4vw;
     }
 
-    .text1 .text2 {
+    .section7 .text1 .text2 {
         width: 20%;;
+    }
+    .section7 .prq{
+        line-height: 0vw;
     }
 
 }
 
 
 
-@media (max-width: 991px) and (min-width:320px) {
+@media (max-width: 992px) {
     
-    .руб {
-        margin-bottom: 20px;
-        font-size: 50px;
+    .section8 .general-container {
+        flex-direction: column;    
     }
 
-
-    .general-container {
-        padding-left: 0;
+    .section8 .container1 {
+        width: 100%;
     }
 
-    .container1 {
-        padding-left: 40px;
-    }
-
-    .text2 {
-        padding-right: 50px;
-        margin-left: 20px;
-
-    }
-
-    .general-container {
+    .section8.general-container {
         display: flex;
         flex-direction: column;
+
     }
 
-    .container2 {
-        padding-left: 40px;
+    .section8 .container2 {
+        width: 100%;
+        margin-top: 5vw;
     }
 
-    .fourly img {
-        width: 15px;
-        height: 15px;
+    .section8 .fourly img {
+        width: 4.5vw;
+        height: 4.5vw;
         padding-bottom: 60px;
     }
 
-    .container2 .img1 {
-        width: 12px;
-        height: 12px;
+    .section8 .container2 .img1 {
+        width: 3.5vw;
+        height: 3.2vw;
     }
 
-    .container2 .img2 {
-        width: 12px;
-        height: 8px;
+    .section8 .container2 .img2 {
+        width: 3.8vw;
+        height: 2vw;
     }
 
-    .container2 p {
-        font-size: 12px;
+    .section8 .container2 p {
+        font-size: 3vw;
         font-weight: 400;
     }
-
-    .footer p {
-        padding-left: 40px;
-        font-size: 10px;
-        height: 0;
+    .section8 .top{
+        margin-top: 1.6vw;
     }
 
-    .Стоимость {
-        font-size: 12px;
+    .section8 .footer p {
+        font-size: 2.5vw;
+    }
+    .section8 .footer{
+        margin-top: 8vw;
     }
 
-    .bash {
-        font-size: 26px;
-        width: 210px;
-    }
-
-    .container1 .img0 {
-        width: 53px;
-        height: 31px;
+    .section8 .container1 .img0 {
+        width: 14vw;
+        height: 8vw;
     }
 
 
             /*section7*/
+    .section7{
+        padding-bottom: 18vw;
+    }
 
+    .section8 .general-container{
+        padding-top: 5vw;
+    }
 
-    .bash {
+    .section7 .руб {
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    .section7 .bash {
         width: 72%;
         font-size: 7vw;
         font-weight: 700;
+        margin-bottom: 8vw;
     }
 
-    .Стоимость {
+    .section7 .Стоимость {
         font-size: 3.8vw;
     }
 
-    .руб {
+    .section7 .руб {
         font-size: 11vw;
         font-weight: lighter;
     }
 
-    div>div>.prq {
+    .section7>div>div{
+        justify-content: space-between;
+    }
+    .section7 .text1, .section7 .text2{
+        width: 45%;
+    }
+
+    .section7 .prq {
         font-size: 3.5vw;
+        line-height: 0vw;
     }
 
-    div>div>.prq2 {
-        font-size: 2.5vw;
+    .section7 .prq2 {
+        font-size: 2.6vw;
     }
-
+    
 }
